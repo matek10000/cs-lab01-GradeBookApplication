@@ -24,41 +24,10 @@ The C Sharp Grade Book Application is a designed to allow instructors to create 
 - "Save" : Saves the open gradebook
 - "Close" : Closes the gradebook
 
-# Setup the Application
+### Zadania
 
-## If you want to use Visual Studio
-
-If you want to use Visual Studio (highly recommended) follow these steps:
-
-- If you already have Visual Studio installed make sure you have .Net Core installed by running the "Visual Studio Installer" and making sure ".NET Core cross-platform development" is checked
-- If you need to install Visual Studio, download it at <https://www.microsoft.com/net/download/>
-  - If you're using Windows you'll want to check ".NET Core cross-platform development" on the workloads screen during installation
-- Open the `GradeBook.sln` file in Visual Studio
-- To run the application simply press the Start Debug button (green arrow) or press F5
-- If you're using Visual Studio on Windows, to run tests open the Test menu, click Run, then click on Run all tests (results will show up in the Test Explorer)
-- If you're using Visual Studio on macOS, to run tests, select the GradeBookTests Project, then go to the Run menu, then click on Run Unit Tests (results will show up in the Unit Tests panel)
-
-(Note: All tests should fail at this point; this is by design. As you progress through the projects more and more tests will pass. All tests should pass upon completion of the project.)
-
-## If you don't plan to use Visual studio
-
-If you would rather use something other than Visual Studio
-
-- Install the .Net Core SDK from <https://www.microsoft.com/net/download/core>. Once that installation completes you're ready to roll!
-- To run the application go into the GradeBook project folder and type `dotnet run`
-- To run the tests go into the GradeBookTests project folder and type `dotnet test`
-
-# Features you will implement
-
-- Add support for Ranked Grading
-- Add support for Weighted GPAs
-
-## Tasks necessary to complete implementation
-
-__Note:__ This isn't the only way to accomplish implementation, however; this is what the project's tests are expecting. Implementing the features in a different way will likely result in being marked as incomplete / incorrect.
-
-- [ ] Add support for Ranked Grading
-	- [ ] Creating The `GradeBookType` Enum.
+- [X] Add support for Ranked Grading
+	- [X] Creating The `GradeBookType` Enum.
 		- [X] Create a new Enum `GradeBookType`.
 			- This should be located in the `Enums` directory.
 			- This should use the `GradeBooks.Enums` namespace.
