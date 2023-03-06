@@ -55,13 +55,13 @@ The C Sharp Grade Book Application is a designed to allow instructors to create 
 			- This should be located in the `GradeBooks` directory.
 			- This should use the `GradeBook.GradeBooks` namespace.
 			- This should inherit the `BaseGradeBook` class.
-		-  [ ] Create a constructor for `RankedGradeBook`
+		-  [X] Create a constructor for `RankedGradeBook`
 			- This should accept a parameter `name` of type `string`.
 			- This should set `Type` to `GradeBookType.Ranked`.
 			- This should call the `BaseGradeBook` constructor by putting ` : base(name)` after the constructor declaration. _(This was not covered in the course, it calls the constructor of the inherited class.)_
 
-	- [ ] Override `RankedGradeBook`'s `GetLetterGrade` method
-		- [ ] Provide the appropriate grades based on how the input grade compares to other students.
+	- [X] Override `RankedGradeBook`'s `GetLetterGrade` method
+		- [X] Provide the appropriate grades based on how the input grade compares to other students.
 			_(One way to solve this is to figure out how many students make up 20%, then loop through all the grades and check how many scored higher than the input average, every N students where N is that 20% value drop a letter grade.)_
 			- If there are less than 5 students throw an `InvalidOperationException`.
 			- Return A if the input grade is in the top 20% of the class.
