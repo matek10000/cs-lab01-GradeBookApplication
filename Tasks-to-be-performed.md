@@ -50,8 +50,8 @@ The C Sharp Grade Book Application is a designed to allow instructors to create 
 			- This should set `Type` to `GradeBookType.Standard`.
 			- This should call the `BaseGradeBook` constructor by putting ` : base(name)` after the constructor declaration. _(This was not covered in the course, it calls the constructor of the inherited class.)_
 
-	- [ ] Creating the `RankedGradeBook` class
-		-  [ ] Create a class `RankedGradeBook` _(Once this change is made the code will not compile until completion of the next task)_
+	- [X] Creating the `RankedGradeBook` class
+		-  [X] Create a class `RankedGradeBook` _(Once this change is made the code will not compile until completion of the next task)_
 			- This should be located in the `GradeBooks` directory.
 			- This should use the `GradeBook.GradeBooks` namespace.
 			- This should inherit the `BaseGradeBook` class.
