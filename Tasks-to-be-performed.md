@@ -104,20 +104,20 @@ The C Sharp Grade Book Application is a designed to allow instructors to create 
 
 	- [ ] Refactor constructor of `BaseGradeBook`
 		_Note, once this group of tasks is begun the code will not compile until the entire group of tasks is complete._
-		- [ ] Add a `bool` to the `BaseGradeBook` constructor
+		- [X] Add a `bool` to the `BaseGradeBook` constructor
 			- This should be of type `bool`.
 			- This should be the second parameter.
-		- [ ] Set `IsWeight` in the `BaseGradeBook` constructor
-			- [ ] Set the `IsWeighted` property using the `bool` parameter
-		- [ ] Add a `bool` to the `StandardGradeBook` constructor
-			- This should be of type `bool`.
-			- This should be the second parameter.
-			- This will require the bool to be added to the call to the base constructor.
-		- [ ] Add a `bool` to the `RankedGradeBook` constructor
+		- [X] Set `IsWeight` in the `BaseGradeBook` constructor
+			- [X] Set the `IsWeighted` property using the `bool` parameter
+		- [X] Add a `bool` to the `StandardGradeBook` constructor
 			- This should be of type `bool`.
 			- This should be the second parameter.
 			- This will require the bool to be added to the call to the base constructor.
-		- [ ] Update `StartingUserInterface.CreateCommand` condition
+		- [X] Add a `bool` to the `RankedGradeBook` constructor
+			- This should be of type `bool`.
+			- This should be the second parameter.
+			- This will require the bool to be added to the call to the base constructor.
+		- [X] Update `StartingUserInterface.CreateCommand` condition
 			- Change the condition checking if `parts` is not equal to 3 to be is not equal to 4.
 		- [ ] Update `StartingUserInterface.CreateCommand` to accept `IsWeighted`
 			- This should use `parts[3]` for the last parameter where the gradebooks are instantiated.
