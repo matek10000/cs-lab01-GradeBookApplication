@@ -70,8 +70,8 @@ The C Sharp Grade Book Application is a designed to allow instructors to create 
 			- Return D if the input grade is between the top 60 and 80% of the class.
 			- Return F if the grade is below the top 80% of the class.
 
-	- [ ] Override `RankedGradeBook`'s `CalculateStatistics` method
-		- [ ] Short circuit the method if there are less than 5 students.
+	- [X] Override `RankedGradeBook`'s `CalculateStatistics` method
+		- [X] Short circuit the method if there are less than 5 students.
 			- If there are less than 5 students write "Ranked grading requires at least 5 students." to the Console.
 			- If there are 5 or more students call the base class's `CalculateStatistics` method using `base.CalculateStatistics`.
 
