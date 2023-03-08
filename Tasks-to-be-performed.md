@@ -95,9 +95,9 @@ The C Sharp Grade Book Application is a designed to allow instructors to create 
 	- [X] Make the `BaseGradeBook` class abstract
 		- [X] Add the `abstract` keyword to the `BaseGradeBook` declaration.
 
-- [ ] Add support for weighted GPAs
-	- [ ] Add `IsWeighted` property to `BaseGradeBook`
-		- [ ] Create a new `bool` property named `IsWeighted` in `BaseGradeBook`
+- [X] Add support for weighted GPAs
+	- [X] Add `IsWeighted` property to `BaseGradeBook`
+		- [X] Create a new `bool` property named `IsWeighted` in `BaseGradeBook`
 			- This should use the public access modifier.
 			- This should be of type `bool`.
 			- This should be named `IsWeighted`.
